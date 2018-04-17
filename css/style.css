@@ -108,7 +108,7 @@
   header.mainhead {
     text-align: left;
     color: white;
-    background-image: url("../img/header.png");
+    background-image: url("../img/bg.png");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -181,14 +181,14 @@ header.mainhead .introduction-text {
     header.mainhead .introduction-text .icons .push-social li {
       list-style: none;
       display: inline !important;
-      font-size: 32px;
+      font-size: 30px !important;
     }
     header.mainhead .introduction-text .icons .push-social li a i {
       color: white;
     }
-    header.mainhead .introduction-text .icons {
-      margin-top: 50px;
-      text-align: start;
+    header.mainhead .introduction-text .icons .pus {
+      /* margin-top: 50px; */
+      /* text-align: start; */
     }
   }
 
@@ -220,10 +220,13 @@ header.mainhead .introduction-text {
     text-align: center;
     background-color: #fff;
   }
-  
+  #portfolio .portfolio-item .portfolio-caption h2 {
+    font-family: 'Open Sans', sans-serif;
+  }
   #portfolio .portfolio-item .portfolio-caption h4 {
     margin: 0;
     text-transform: none;
+    font-family: 'Open Sans', sans-serif;
   }
   
   #portfolio .portfolio-item .portfolio-caption p {
@@ -236,10 +239,16 @@ header.mainhead .introduction-text {
   #portfolio * {
     z-index: 2;
   }
-  
+  #contact {
+    font-family: 'Open Sans', sans-serif;
+  }
+  footer.footer {
+    font-family: 'Open Sans', sans-serif;
+  }
   @media (min-width: 767px) {
     #portfolio {
       margin-top: 50px;
+      font-family: 'Open Sans', sans-serif;
     }
     #portfolio .portfolio-item {
       margin: 0 0 30px;
@@ -267,10 +276,14 @@ header.mainhead .introduction-text {
       margin-top: 50px;
       text-align: start;
     }
+    #contact {
+      font-family: 'Open Sans', sans-serif;
+    }
     footer.footer {
       padding-top: 64px;
       padding-bottom: 64px;
       background-color: #2D3666 !important;
+      font-family: 'Open Sans', sans-serif;
     }
     footer.footer a {
       color: white;
