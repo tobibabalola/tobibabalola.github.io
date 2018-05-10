@@ -23,7 +23,7 @@
   }
 
   nav {
-    background-color: #2D3666 !important;
+    background-color: black;
   }
   
   #mainNav .navbar-nav .nav-item .nav-link {
@@ -54,7 +54,7 @@
   footer.footer {
     padding-top: 50px;
     padding-bottom: 50px;
-    background-color: #2D3666 !important;
+    background-color: black;
   }
   footer.footer a {
     color: white;
@@ -91,7 +91,7 @@
       transition: all 0.3s;
     }
     #mainNav .navbar-nav .nav-item .nav-link {
-      padding: 17px 16px !important;
+      padding: 17px 16px;
     }
     #mainNav.navbar-shrink {
       padding-top: 0;
@@ -108,7 +108,8 @@
   header.mainhead {
     text-align: left;
     color: white;
-    background-image: url("../img/bg.png");
+    /* background-image: url("../img/headerrrr.jpg"); */
+    background-color: black;
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -127,7 +128,7 @@ header.mainhead .introduction-text {
     font-size: 40px;
     font-weight: 400;
     line-height: 70px;
-    margin-bottom: 25px;
+    margin-bottom: 22px;
     font-family: 'Open Sans', sans-serif;
   }
 
@@ -139,11 +140,14 @@ header.mainhead .introduction-text {
     margin-bottom: 25px;
     font-family: 'Open Sans', sans-serif;
   }
+  header.mainhead .introduction-text .icons .push-social {
+    text-align: center;
+  }
 
   @media (min-width: 768px) {
     header.mainhead .introduction-text {
       padding-top: 150px;
-      padding-bottom: 80px;
+      padding-bottom: 120px;
     }
     header.mainhead .introduction-text .introduction-lead {
         font-size: 40px;
@@ -178,6 +182,9 @@ header.mainhead .introduction-text {
       vertical-align: middle;
       display: inline-table;
     }
+    header.mainhead .introduction-text .icons .push-social {
+      text-align: center;
+    }
     header.mainhead .introduction-text .icons .push-social li {
       list-style: none;
       display: inline !important;
@@ -186,7 +193,7 @@ header.mainhead .introduction-text {
     header.mainhead .introduction-text .icons .push-social li a i {
       color: white;
     }
-    header.mainhead .introduction-text .icons .pus {
+    header.mainhead .introduction-text .icons .push-social {
       /* margin-top: 50px; */
       /* text-align: start; */
     }
@@ -288,5 +295,8 @@ header.mainhead .introduction-text {
     footer.footer a {
       color: white;
       list-style: none;
+    }
+    footer.footer a:hover {
+      text-decoration: none;
     }    
   }
